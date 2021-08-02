@@ -1,0 +1,15 @@
+p {
+  margin-bottom: 0;
+}
+.blur-img {
+  filter: blur(3px)
+}
+.blur-img:hover {
+  filter: blur(0)
+}
+
+@media (max-width: 768px) {
+  .blur-img {
+    filter: none;
+  }
+}
